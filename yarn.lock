@@ -6726,9 +6726,15 @@ __metadata:
   languageName: node
   linkType: hard
 
-"nuxt-app@workspace:packages/nuxt3":
+"nuxt3-api@workspace:.":
   version: 0.0.0-use.local
-  resolution: "nuxt-app@workspace:packages/nuxt3"
+  resolution: "nuxt3-api@workspace:."
+  languageName: unknown
+  linkType: soft
+
+"nuxt3@workspace:packages/nuxt3":
+  version: 0.0.0-use.local
+  resolution: "nuxt3@workspace:packages/nuxt3"
   dependencies:
     "@nuxt/devtools": latest
     "@nuxthq/ui": ^2.3.0
@@ -6736,12 +6742,6 @@ __metadata:
     "@vueuse/nuxt": ^10.1.2
     dayjs: ^1.11.8
     nuxt: ^3.5.2
-  languageName: unknown
-  linkType: soft
-
-"nuxt3-api@workspace:.":
-  version: 0.0.0-use.local
-  resolution: "nuxt3-api@workspace:."
   languageName: unknown
   linkType: soft
 
