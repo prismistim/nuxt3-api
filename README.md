@@ -1,5 +1,7 @@
 # nuxt3-api-demo
 
+![にほんご]('./README_ja.md')
+
 ## Overview
 - This repository is for showcasing the frontend environment.
 - It includes a simple API for managing user information.
