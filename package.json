@@ -1,6 +1,10 @@
 {
   "name": "nuxt3-api",
   "packageManager": "yarn@3.6.0",
+  "scripts": {
+    "dev:api": "yarn workspace api dev",
+    "dev:nuxt3": "yarn workspace nuxt3 dev"
+  },
   "workspaces": [
     "packages/*"
   ],
