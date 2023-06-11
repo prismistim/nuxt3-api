@@ -1,4 +1,11 @@
 {
   "name": "nuxt3-api",
-  "packageManager": "yarn@3.4.1"
+  "packageManager": "yarn@3.6.0",
+  "workspaces": [
+    "packages/*"
+  ],
+  "volta": {
+    "node": "18.16.0",
+    "yarn": "3.6.0"
+  }
 }
