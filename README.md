@@ -1,6 +1,6 @@
 # nuxt3-api-demo
 
-![にほんご]('./README_ja.md')
+[にほんご](./README_ja.md)
 
 ## Overview
 - This repository is for showcasing the frontend environment.
